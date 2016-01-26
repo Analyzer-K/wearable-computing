@@ -128,5 +128,4 @@ dfinal <- group_by(dfinal,subject,activity)
 ******************************************************************************************************************************
 
 tidyset <- summarise_each(dfinal,funs(mean))
-tidyset
 
