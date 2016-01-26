@@ -129,3 +129,7 @@ dfinal <- group_by(dfinal,subject,activity)
 
 tidyset <- summarise_each(dfinal,funs(mean))
 
+4-print the output tidy set
+***************************
+
+tidyset
