@@ -59,3 +59,4 @@ names(dfinal) <- gsub("[(][)]","",names(dfinal))
 dfinal <- group_by(dfinal,subject,activity)
 tidyset <- summarise_each(dfinal,funs(mean))
 write.table(tidyset,"D:/RWSPACE/project3/samsung_tidyset.txt",row.names = FALSE)
+tidyset
